@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 26, 2017, 10:02:39 PM
+    Author     : rachanagajjar
+*/
+body{background-color: black;
+height: 100%}
+header{
+    height: 100px;
+    width: 100%;
+}
+iframe{
+    height: 500px;
+    width: 100%;
+    border: black;
+}
+.homeh2{
+    color: white;
+    font-family: Times New Roman;
+    margin-left:10%;
+    margin-top: 10%;
+}
+#home{
+    display: block;
+    width: auto;
+}
+#p{
+    color: white;
+   margin-left: 20%;
+   font-size:  larger;
+   font-family: BankGothic Md BT;
+}
+/*latest movie table*/
+h3{font-family: sans-serif;}
+.h1{font-family: fantasy;color: darkorange;padding-left: 70px;}
+ table,tr,td{border: 1px double darkgreen;padding: 10px;color: pink;font-size: large;}
+ thead{font-weight: bold;}
+ /*navigation*/
+ 
+ #left{float: left;}
+ #right{float: right;}
+.li{display: inline;font-family: fantasy;padding: 5px;}
+a{color: white;}
+.nav{font-size: x-large;height: 10%;}
+#clear{display: block;}
+/*backgraund image*/
+
+.lfloat{
+    float: left
+}
+.rfloat{
+    float:right;
+}
+
+ .mover{width: 100%;height: 300px;background: url('headline.jpg')repeat-x;overflow: hidden;-webkit-animation: moveSlideshow 18s linear infinite;}
+ @-webkit-keyframes  moveSlideshow{
+     0%{background-position: 0px;}
+     
+     100%{ background-position: -300px; }
+ }
+  
+ /* follow us*/
+ .fu{
+     color: black;
+     font-size:  large;
+     display: block;
+ }
+ .par{
+     margin-left: 100px;;
+ }
+ .media{
+     margin: 5%;
+ }
+ /*contact us*/
+ li{
+     
+     display: block;
+ }
+ /*offers*/
+ #offerh2{
+     color: #ffffff;
+     font-family:BankGothic Md BT ;
+     margin-top: 5%;
+     margin-left: 5%;
+ }
+ .offersli{
+     color:  #ffffff;
+     display: block;
+     font-family: BankGothic Md BT;
+     padding: 5%;
+ }
+ body{
+     background: black;
+ }
+ #wrap{ width: 930px; height: 300px; }
+ .block{ width: 300px; height: 300px; float: left; display: block; overflow: hidden; position: relative;
+        margin: 0 4px 0 0; background: white;  background: black;}
+  #blockspa{height: 300px; width: 300px; position: absolute; display: block; background: url('deals.png') no-repeat;
+            
+            -webkit-transition: top ease-in-out ;}
+  .block:hover
+    #blockspa{top: -250px;
+    -webkit-transition-duration:  10s;}
+   .content{ padding: 70px 15px 0 15px; color: white;  }
+   .div{
+       padding: 5% 15% 0 15%;
+   }

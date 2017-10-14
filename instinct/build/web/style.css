@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 11, 2017, 10:06:06 PM
+    Author     : rachanagajjar
+*/
+
+#searchlogo{
+  padding: 10px 20px 10px 20px;
+  float: left;
+}
+.myserach{
+   color: black;
+   float: left;
+   font-size: larger;
+   padding-left: 1%;
+   padding-top: 10px;
+}
+#rfloat{
+    float: right;
+}
+    th{
+     padding-right: 80px;  
+    }
+    
+    #lfloat{
+        float: left;
+    }
+     th{
+         border-bottom: 0.2px solid  #cccccc ;
+     }
+   td {
+         font-size: smaller;
+        padding-right: 15px;
+     }
+   .mytable{
+       padding-top: 10px;
+       padding-right: 60px;
+         }
+   a{
+      color: black;
+    }
+    
+    
